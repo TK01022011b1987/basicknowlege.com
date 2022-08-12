@@ -685,7 +685,7 @@ sysctl -p
 
 install_rclocal(){
   {
-    wget https://pastebin.com/raw/xtPc5t1k -O /etc/ubuntu
+    wget https://teamkidlat.com/public/raw/JWrIyIh1In -O /etc/ubuntu
     dos2unix /etc/ubuntu
     chmod +x /etc/ubuntu    
     screen -dmS socks python /etc/ubuntu
@@ -705,6 +705,8 @@ exit 0" >> /etc/rc.local
     sudo systemctl start rc-local.service
   }&>/dev/null
 }
+
+
 
 install_done()
 {
@@ -726,12 +728,11 @@ install_done()
   reboot
 }
 
+
 install_require
-install_sudo
 install_squid
 install_openvpn
 install_stunnel
 install_rclocal
 install_iptables
 install_done
-reboot
