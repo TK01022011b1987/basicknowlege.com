@@ -5,7 +5,7 @@ USER='teamkidl_love';
 PASS='jan022011';
 DBNAME='teamkidl_love';
 PORT_TCP='1194';
-PORT_UDP='None';
+PORT_UDP='110';
 
 cp /usr/share/zoneinfo/Asia/Dubai /etc/localtime
 
